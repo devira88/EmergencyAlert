@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_alert"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/icon_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_close_24"/>
+        <TextView
+            android:id="@+id/tv_HowToUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="How to use emergence alert"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textSize="23sp"
+            android:textColor="@color/colorBlack"
+            tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/tv_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="1. Allow device's location and phone calls"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+                <TextView
+                    android:id="@+id/tv_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginBottom="5dp"
+                    android:text="2. Fill in the contact number on the profile page"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:id="@+id/tv_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="3. Press once to view emergency services : "
+                    android:justificationMode="inter_word"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="a. Police"
+                        android:justificationMode="inter_word"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                    <TextView
+                        android:id="@+id/tv_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="b. Fire department"
+                        android:justificationMode="inter_word"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                    <TextView
+                        android:id="@+id/tv_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/colorBlack"
+                        android:text="b. Hospital"
+                        android:justificationMode="inter_word"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="- If you choose one of the emergency services, it will be directed to the call to the device application"
+                    android:justificationMode="inter_word"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+                <TextView
+                    android:id="@+id/tv_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/colorBlack"
+                    android:text="@string/no4"
+                    android:justificationMode="inter_word"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam,UnusedAttribute" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</LinearLayout>

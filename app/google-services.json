@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71115381846",
+    "project_id": "skripsiemergence",
+    "storage_bucket": "skripsiemergence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71115381846:android:a384095a1104c05ed1eff7",
+        "android_client_info": {
+          "package_name": "com.example.skripsiemergence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71115381846-oad4c9i4ha9pclur52uasaebp877f6ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHij2BvObmCIvoEO4rKzxCC1nvQ1x0BPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71115381846-oad4c9i4ha9pclur52uasaebp877f6ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
